@@ -4,3 +4,6 @@ seaborn
 scikit-learn
 joblib
 streamlit
+fastapi
+uvicorn
+xgboost
