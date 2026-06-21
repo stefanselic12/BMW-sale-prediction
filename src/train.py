@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.metrics import accuracy_score
 from xgboost import XGBClassifier
 
-SALES_VOLUME_PENALTY   = 0.1   # skalira vrijednosti (stabla invarijantna, ali drzi raspon mali)
+SALES_VOLUME_PENALTY   = 0.1   # skalira vrednosti (stabla invarijantna, ali drzi raspon mali)
 SALES_VOLUME_NOISE_STD = 2000  # Gaussov sum koji prelapa granicu High/Low (7000), smanjuje dominaciju
 
 BASE_DIR    = Path(__file__).resolve().parents[1]

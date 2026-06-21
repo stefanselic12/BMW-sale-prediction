@@ -1,6 +1,6 @@
 # BMW Car Sales Classification
 
-Projekat mašinskog učenja za klasifikaciju uspješnosti prodaje BMW automobila (High/Low).
+Projekat mašinskog učenja za klasifikaciju uspešnosti prodaje BMW automobila (High/Low).
 
 ## Struktura projekta
 
@@ -70,7 +70,7 @@ docker run -p 8501:8501 bmw-sales
 
 ## Rezultati
 
-| Metrika | Vrijednost |
+| Metrika | Vrednost |
 |---|---|
 | Test Accuracy | 82.76% |
 | ROC-AUC | 0.9125 |
